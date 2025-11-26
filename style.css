@@ -1,0 +1,44 @@
+body {
+    /* Đặt phông chữ cơ bản và nền tối */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #282c34; /* Nền tối */
+    color: #fff; /* Chữ trắng */
+}
+
+.clock-container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #7a9bbb; /* Nền container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ffffff; /* Màu tiêu đề nổi bật */
+}
+
+.clock {
+    font-size: 5rem; /* Kích thước chữ lớn */
+    font-weight: bold;
+    letter-spacing: 5px; /* Khoảng cách chữ */
+    padding: 15px 30px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: #20232a; /* Nền đồng hồ */
+    display: inline-block;
+    color: #f7b32c; /* Màu thời gian nổi bật */
+    text-shadow: 0 0 10px rgba(247, 179, 44, 0.8); /* Hiệu ứng phát sáng */
+}
+
+/* Responsive cơ bản */
+@media (max-width: 600px) {
+    .clock {
+        font-size: 3rem;
+    }
+}
